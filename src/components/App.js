@@ -3,9 +3,13 @@ import Editor from "./Editor";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <div className="pane top-pane">
-        <Editor />
+        <Editor 
+        language="xml" 
+        displayName="HTml" 
+        value={} 
+        onChange={} />
         <Editor />
         <Editor />
       </div>
@@ -18,7 +22,7 @@ function App() {
         height="100%"
         />
       </div>
-    </div>
+    </>
   );
 }
 
